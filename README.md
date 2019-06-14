@@ -43,10 +43,10 @@ In this we implement 1) the computation of the CRLBs for an unwrapped model (see
 ### empirical_results.ipynb
 This notebook complements Section V: Numerical results of our paper [[1]](#ourpaper). Here, we implement the experiments that yield the numerical results we report in Section V.
 
-## Simulated nodes.ipynb
+### Simulated nodes.ipynb
 In this notebook an ideal physical system is simulated according to the protocol described in Fig.1 and in Section II-A of (). 
 
-## Real parameters for simluated nodes.ipynb (to be deleted)
+### Real parameters for simluated nodes.ipynb (to be deleted)
 
 ## References
 [[1]](#ourpaper): Pol del Aguila Pla, Lissy Pellaco, Satyam Dwivedi, Peter Händel and Joakim Jaldén, "Clock synchronization over networks — Identifiability of the sawtooth model", Preprint, submitted to IEEE Transactions on Automatic Control, 2019.
