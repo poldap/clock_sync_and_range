@@ -29,22 +29,22 @@ If you would like to execute the code on your own computation environment and fu
 
 To execute our code, you will need to be familiar with Jupyter notebooks running Python code. For that, you can refer to any of the several freely available tutorials, like [this one](https://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/). After installation of the required packages, navigate to the folder where this repository has been cloned and execute jupyter notebook to launch the Jupyter notebook server ihttps://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/n that folder. Then, a simple click to any of the *.ipynb files listed in the Jupyter notebook website loads it on a new tab, where controls for running our code are available. 
 
-In the following, we go through the different notebooks included and explain what each of them contains. **YOU DO NOT NEED TO RUN THE JUPYTER NOTEBOOKS IN A SPECIFIC ORDER**. Each notebook automatically imports all the required dependencies. In particular, if you are interested in the numerical results, i.e. plots in our papaer we suggest to directly look at [empirical_results.ipynb](#empirical_results). If you are interested in the set-up used to simulate an ideal physical system of two nodes that operate following the protocol described in Fig.1. and Section II. A of (ourpaper), look at  Simulated nodes.ipynb.
+In the following, we go through the different notebooks included and explain what each of them contains. **YOU DO NOT NEED TO RUN THE JUPYTER NOTEBOOKS IN A SPECIFIC ORDER**. Each notebook automatically imports all the required dependencies. In particular, if you are interested in the numerical results, i.e. plots in our papaer we suggest to directly look at [empirical_results.ipynb](#empirical_results). If you are interested in the set-up used to simulate an ideal physical system of two nodes that operate following the protocol described in Fig.1. and Section II. A of (ourpaper), look at [Simulated nodes.ipynb](#Simulated_nodes)
 
 ### Imports and library of basic functions.ipynb
 In this notebook we provide the basic imports and self-defined functions needed for the implementation of the different concepts and results considered in our paper [[1]](#ourpaper).
 
 ### estimation_strategies_with_examples.ipynb
-In this notebook we implement our reference estimation strategies: (see Section IV.B of our paper [[1]] (#ourpaper)) and showcase them by simple examples.
+In this notebook we implement our reference estimation strategies: (see Section IV.B of our paper [[1]](#ourpaper)) and showcase them by simple examples.
 
 ### Cramér-Rao lower bounds and Monte Carlo experiments.ipynb
-In this we implement 1) the computation of the CRLBs for an unwrapped model (see Section IV.A of our paper [1]), and 2) the basic machinery to run Monte Carlo experiments with our proposed estimation approaches (see Section IV.B of our paper [[1]](#ourpaper) and [estimation_strategies.ipynb](#estimation-strategies.ipynb) for their implementation) with respect to the different parameters of interest in the clock synchronization and ranging problem. 
+In this we implement 1) the computation of the CRLBs for an unwrapped model (see Section IV.A of our paper [[1]](#ourpaper)), and 2) the basic machinery to run Monte Carlo experiments with our proposed estimation approaches (see Section IV.B of our paper [[1]](#ourpaper)and [estimation_strategies.ipynb](#estimation-strategies.ipynb) for their implementation) with respect to the different parameters of interest in the clock synchronization and ranging problem. 
 
 ### empirical_results.ipynb <a id='empirical_results'></a>
 This notebook complements Section V: Numerical results of our paper [[1]](#ourpaper). Here, we implement the experiments that yield the numerical results we report in Section V.
 
 ### Simulated nodes.ipynb <a id='Simulated_nodes'></a>
-In this notebook an ideal physical system is simulated according to the protocol described in Fig.1 and in Section II-A of (). 
+In this notebook an ideal physical system is simulated according to the protocol described in Fig.1 and in Section II-A of [[1]](#ourpaper). 
 
 ### Real parameters for simluated nodes.ipynb (to be deleted)
 
