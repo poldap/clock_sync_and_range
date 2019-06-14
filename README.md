@@ -9,8 +9,7 @@ This GitHub repository contains the code and explanations that complement the pa
 [[4]](https://www.kth.se/profile/ph/): Peter Händel's research profile at KTH<br/>
 [[5]](https://www.kth.se/profile/jalden/): Joakim Jaldén's research profile at KTH<br/>
 
-In this repository you can find the code used to implement the different estimation strategies in [our paper](#ourpaper), i.e., Periodogram and Correlation Peaks (PCP), Local/Global Grid Search (LGS/GGS), and used to produce all the plots in #ourpaper. You can also find the code used to simulate an ideal physical system with two node exchanging pulses according to the protocol described in Section II-A in 
-[our paper](#ourpaper) and in the [Fig.1](#Fig.1).
+In this repository you can find the code used to implement the different estimation strategies in  our paper [[1]](#ourpaper), i.e., Periodogram and Correlation Peaks (PCP), Local/Global Grid Search (LGS/GGS), and used to produce all the plots in #ourpaper. You can also find the code used to simulate an ideal physical system with two node exchanging pulses according to the protocol described in Section II-A in our paper [[1]](#ourpaper) and in the [Fig.1](#Fig.1).
 
  <a id='Fig.1'></a>![RTT_measurement_scheme](RTT-measurement_scheme.png)
 
@@ -35,11 +34,11 @@ In the following, we go through the different notebooks included and explain wha
 ### Imports and library of basic functions.ipynb
 In this notebook we provide the basic imports and self-defined functions needed for the implementation of the different concepts and results considered in our paper [[1]](#ourpaper).
 
-### estimation_strategies_with_examples.ipynb
+### estimation_strategies_with_examples.ipynb<a id='estimation-strategies.ipynb'></a>
 In this notebook we implement our reference estimation strategies: (see Section IV.B of our paper [[1]](#ourpaper)) and showcase them by simple examples.
 
 ### Cramér-Rao lower bounds and Monte Carlo experiments.ipynb
-In this we implement 1) the computation of the CRLBs for an unwrapped model (see Section IV.A of our paper [[1]](#ourpaper)), and 2) the basic machinery to run Monte Carlo experiments with our proposed estimation approaches (see Section IV.B of our paper [[1]](#ourpaper)and [estimation_strategies.ipynb](#estimation-strategies.ipynb) for their implementation) with respect to the different parameters of interest in the clock synchronization and ranging problem. 
+In this we implement 1) the computation of the CRLBs for an unwrapped model (see Section IV.A of our paper [[1]](#ourpaper)), and 2) the basic machinery to run Monte Carlo experiments with our proposed estimation approaches (see Section IV.B of our paper [[1]](#ourpaper)and [estimation_strategies_with_examples.ipynb](#estimation-strategies.ipynb) for their implementation) with respect to the different parameters of interest in the clock synchronization and ranging problem. 
 
 ### empirical_results.ipynb <a id='empirical_results'></a>
 This notebook complements Section V: Numerical results of our paper [[1]](#ourpaper). Here, we implement the experiments that yield the numerical results we report in Section V.
