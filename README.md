@@ -10,7 +10,8 @@ This GitHub repository contains the code and explanations that complement the pa
 [[5]](https://www.kth.se/profile/jalden/): Joakim Jaldén's research profile at KTH<br/>
 
 In this repository you can find the code used to implement the different estimation strategies in our paper (#references), i.e., Periodogram and Correlation Peaks (PCP), Local/Global Grid Search (LGS/GGS), and used to produce all the plots in #ourpaper. You can also find the code used to simulate an ideal physical system with two node exchanging pulses according to the protocol described in Section II-A in our paper (#ourpaper) and in the Fig. 1.
-ADD FIGURE AND CAPTION? 
+
+![RTT_measurement_scheme](RTT_measurement_scheme.png)
 
 ## Computation Environment
 In order to run our code successfully and in a moderate time, you will need access to a powerful computer. For reference, all our experiments have been run on a computer equipped with Intel(R) Xeon (R) CPU E5-2630 v4 @ 2.20GHz and 32 GB of RAM. In case you do not have access to a powerful CPU, we recommend skipping the intensive-to-compute plots and we suggest to directly load the data to generate the plots from *.npz, as set by default in all the notebooks. This will simply re-render the plots in the user-selected format, loading the results that were run on our computational set-up. Conversely, to run the code locally and reproduce our results, change the flags that you will find in each computation section to "True".
@@ -28,7 +29,7 @@ If you would like to execute the code on your own computation environment and fu
 
 To execute our code, you will need to be familiar with Jupyter notebooks running Python code. For that, you can refer to any of the several freely available tutorials, like [this one](https://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/). After installation of the required packages, navigate to the folder where this repository has been cloned and execute jupyter notebook to launch the Jupyter notebook server ihttps://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/n that folder. Then, a simple click to any of the *.ipynb files listed in the Jupyter notebook website loads it on a new tab, where controls for running our code are available. 
 
-In the following, we go through the different notebooks included and explain what each of them contains. YOU DO NOT NEED TO RUN THE JUPYTER NOTEBOOKS IN A SPECIFIC ORDER. Each notebook automatically imports all the required dependencies. In particular, if you are interested in the numerical results, i.e. plots in our papaer we suggest to directly look at empirical_results.ipynb. If you are interested in the set-up used to simulate an ideal physical system of two nodes that operate following the protocol described in Fig.1. and Section II. A of (ourpaper), look at  Simulated nodes.ipynb.
+In the following, we go through the different notebooks included and explain what each of them contains. **YOU DO NOT NEED TO RUN THE JUPYTER NOTEBOOKS IN A SPECIFIC ORDER**. Each notebook automatically imports all the required dependencies. In particular, if you are interested in the numerical results, i.e. plots in our papaer we suggest to directly look at empirical_results.ipynb. If you are interested in the set-up used to simulate an ideal physical system of two nodes that operate following the protocol described in Fig.1. and Section II. A of (ourpaper), look at  Simulated nodes.ipynb.
 
 ### Imports and library of basic functions.ipynb
 In this notebook we provide the basic imports and self-defined functions needed for the implementation of the different concepts and results considered in our paper [[1]](#ourpaper).
