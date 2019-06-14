@@ -9,7 +9,10 @@ This GitHub repository contains the code and explanations that complement the pa
 [[4]](https://www.kth.se/profile/ph/): Peter Händel's research profile at KTH<br/>
 [[5]](https://www.kth.se/profile/jalden/): Joakim Jaldén's research profile at KTH<br/>
 
-In this repository you can find the code used to implement the different estimation strategies in our paper (#references), i.e., Periodogram and Correlation Peaks (PCP), Local/Global Grid Search (LGS/GGS), and used to produce all the plots in #ourpaper. You can also find the code used to simulate an ideal physical system with two node exchanging pulses according to the protocol described in Section II-A in our paper (#ourpaper) and in the [Fig.1](#Fig.1).
+In this repository you can find the code used to implement the different estimation strategies in [our paper](#ourpaper), i.e., Periodogram and Correlation Peaks (PCP), Local/Global Grid Search (LGS/GGS), and used to produce all the plots in #ourpaper. You can also find the code used to simulate an ideal physical system with two node exchanging pulses according to the protocol described in Section II-A in 
+[our paper](#ourpaper) and in the [Fig.1](#Fig.1).
+
+ <a id='Fig.1'></a>![RTT_measurement_scheme](RTT-measurement_scheme.png)
 
 ## Computation Environment
 In order to run our code successfully and in a moderate time, you will need access to a powerful computer. For reference, all our experiments have been run on a computer equipped with Intel(R) Xeon (R) CPU E5-2630 v4 @ 2.20GHz and 32 GB of RAM. In case you do not have access to a powerful CPU, we recommend skipping the intensive-to-compute plots and we suggest to directly load the data to generate the plots from *.npz, as set by default in all the notebooks. This will simply re-render the plots in the user-selected format, loading the results that were run on our computational set-up. Conversely, to run the code locally and reproduce our results, change the flags that you will find in each computation section to "True".
