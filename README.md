@@ -34,7 +34,7 @@ In the following, we go through the different notebooks included and explain wha
 ### Imports and library of basic functions.ipynb
 In this notebook we provide the basic imports and self-defined functions needed for the implementation of the different concepts and results considered in our paper [[1]](#ourpaper).
 
-### estimation_strategies_with_examples.ipynb<a id='estimation-strategies></a>
+### estimation_strategies_with_examples.ipynb<a id='estimation-strategies'></a>
 In this notebook we implement our reference estimation strategies: (see Section IV.B of our paper [[1]](#ourpaper)) and showcase them by simple examples.
 
 ### Cramér-Rao lower bounds and Monte Carlo experiments.ipynb
@@ -46,7 +46,8 @@ This notebook complements Section V: Numerical results of our paper [[1]](#ourpa
 ### Simulated nodes.ipynb <a id='Simulated_nodes'></a>
 In this notebook an ideal physical system is simulated according to the protocol described in [Fig.1](#Fig.1) and in Section II.A of [[1]](#ourpaper). 
 
-### Real parameters for simluated nodes.ipynb (to be deleted)
+#### Real parameters for simulated nodes.ipynb
+In this notebook it is shown how the real parameters for the simulated nodes are computed. However, such real values lead to an unrealistic computation time. Therefore, we decided to run the simulation of the physical system with toy parameters instead.
 
 ## References
  <a id='ourpaper'></a>[1]: Pol del Aguila Pla, Lissy Pellaco, Satyam Dwivedi, Peter Händel and Joakim Jaldén, "Clock synchronization over networks — Identifiability of the sawtooth model", Preprint, submitted to IEEE Transactions on Automatic Control, 2019.
