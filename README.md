@@ -34,7 +34,7 @@ In the following, we go through the different notebooks included and explain wha
 ### Imports and library of basic functions.ipynb
 In this notebook we provide the basic imports and self-defined functions needed for the implementation of the different concepts and results considered in our paper [[1]](#ourpaper).
 
-### estimation_strategies_with_examples.ipynb<a id='estimation-strategies></a>
+### estimation_strategies_with_examples.ipynb<a id='estimation-strategies'></a>
 In this notebook we implement our reference estimation strategies: (see Section IV.B of our paper [[1]](#ourpaper)) and showcase them by simple examples.
 
 ### Cramér-Rao lower bounds and Monte Carlo experiments.ipynb
