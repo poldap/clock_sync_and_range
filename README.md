@@ -9,12 +9,12 @@ This GitHub repository contains the code and explanations that complement the pa
 [[4]](https://www.kth.se/profile/ph/): Peter Händel's research profile at KTH<br/>
 [[5]](https://www.kth.se/profile/jalden/): Joakim Jaldén's research profile at KTH<br/>
 
-In this repository you can find the code used to implement the different estimation strategies in  our paper [[1]](#ourpaper), i.e., Periodogram and Correlation Peaks (PCP), Local/Global Grid Search (LGS/GGS), and used to produce all the plots in #ourpaper. You can also find the code used to simulate an ideal physical system with two node exchanging pulses according to the protocol described in Section II.A in our paper [[1]](#ourpaper) and in the [Fig.1](#Fig.1).
+In this repository you will find the code used to implement the different estimation strategies in our paper [[1]](#ourpaper), i.e., the intuitive periodogram and correlation peaks (PCP) technique and the local and global grid search (LGS/GGS) procedures for the sawtooth model. Similiarly, you will also find the code used for their evaluation and the generation the empirical results in [[1]](#ourpaper). Additionally, you can also find the code used to simulate an ideal physical system implementing the RTT protocol described in Section II.A of our paper [[1]](#ourpaper), summarized here by [Fig.1](#Fig.1).
 
  <a id='Fig.1'></a>![RTT_measurement_scheme](RTT-measurement-scheme.png)
 
 ## Computation Environment
-In order to run our code successfully and in a moderate time, you will need access to a powerful computer. For reference, all our experiments have been run on a computer equipped with Intel(R) Xeon (R) CPU E5-2630 v4 @ 2.20GHz and 32 GB of RAM. In case you do not have access to a powerful CPU, we recommend skipping the intensive-to-compute plots and we suggest to directly load the data to generate the plots from *.npz, as set by default in all the notebooks. This will simply re-render the plots in the user-selected format, loading the results that were run on our computational set-up. Conversely, to run the code locally and reproduce our results, change the flags that you will find in each computation section to "True".
+In order to run our code successfully and in a moderate time, you will need access to a powerful computer. For reference, all our experiments have been run on a computer equipped with Intel(R) Xeon (R) CPU E5-2630 v4 @ 2.20GHz and 32 GB of RAM. In case you do not have access to a powerful CPU, we recommend skipping the intensive-to-compute cells and we suggest to directly load the data to generate the plots from the `*.npz` files, as set by default in all the empirical results notebook. This will simply re-render the plots in the selected format, loading the results that we obtained. To run the code locally instead to reproduce our results, change the corresponding flags in each computation cell to `True`.
 
 
 ## Explaining code 
