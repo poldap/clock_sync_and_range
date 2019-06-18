@@ -22,7 +22,7 @@ The simplest way to read through the annotated code is to open the relevant `*.i
 
 ## Executing the code
 If you would like to execute the code on your own computation environment and fully replicate our results, the software requirements are:
-1. Python 3 (for reference, we used `python 3.5.2`), along with the packages `numpy`, `operator`, `numba`, `math`, `time`, `tabulate`, `matplotlib`, and `matplotlib2tikz`.
+1. Python 3 (for reference, we used `python 3.5.2`), along with the packages `numpy`, `operator`, `numba`, `math`, `time`, `tabulate`, `matplotlib`,`plotly`, and `matplotlib2tikz`.
 2. Jupyter (for reference, we used `jupyter 5.2.2`).
 
 To execute our code, you will need to be familiar with Jupyter notebooks running Python code. For that, you can refer to any of the several freely available tutorials, like [this one](https://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/). After installation of the required packages, navigate to the folder where this repository has been cloned and execute jupyter notebook to launch the Jupyter notebook server ihttps://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/n that folder. Then, a simple click to any of the `*.ipynb` files listed in the Jupyter notebook website loads it on a new tab, where controls for running our code are available. 
