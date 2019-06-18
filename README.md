@@ -27,7 +27,7 @@ If you would like to execute the code on your own computation environment and fu
 
 To execute our code, you will need to be familiar with Jupyter notebooks running Python code. For that, you can refer to any of the several freely available tutorials, like [this one](https://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/). After installation of the required packages, navigate to the folder where this repository has been cloned and execute jupyter notebook to launch the Jupyter notebook server ihttps://codingthesmartway.com/getting-started-with-jupyter-notebook-for-python/n that folder. Then, a simple click to any of the `*.ipynb` files listed in the Jupyter notebook website loads it on a new tab, where controls for running our code are available. 
 
-In the following, we go through the different notebooks included and explain what each of them contains. **YOU DO NOT NEED TO RUN THE JUPYTER NOTEBOOKS IN A SPECIFIC ORDER**. Each notebook automatically imports all the required dependencies. In particular, if you are interested in the numerical results, i.e. plots in our papaer we suggest to directly look at [empirical_results.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/empirical_results.ipynb). If you are interested in the set-up used to simulate a physical system of two nodes that operate following the protocol described in [Fig.1](#Fig.1) and Section II. A of [[1]](#ourpaper), see [Simulated nodes.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/simulated_nodes.ipynb)
+In the following, we go through the different notebooks included and explain what each of them contains. **YOU DO NOT NEED TO RUN THE JUPYTER NOTEBOOKS IN A SPECIFIC ORDER**. Each notebook automatically imports all the required dependencies. In particular, if you are interested in the numerical results, i.e. plots in Section V of our paper, we suggest to directly look at [empirical_results.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/empirical_results.ipynb). If you are interested in the set-up used to simulate a physical system of two nodes that operate following the protocol described in [Fig.1](#Fig.1) and Section II. A of [[1]](#ourpaper), see [Simulated nodes.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/simulated_nodes.ipynb)
 
 ### Imports and library of basic functions.ipynb
 In this notebook we provide the basic imports and self-defined functions needed for the implementation of the different concepts and results considered in our paper [[1]](#ourpaper).
@@ -36,7 +36,7 @@ In this notebook we provide the basic imports and self-defined functions needed 
 In this notebook we implement our reference estimation strategies: (see Section IV.B of our paper [[1]](#ourpaper)) and showcase them by simple examples.
 
 ### Cramér-Rao lower bounds and Monte Carlo experiments.ipynb
-In this we implement 1) the computation of the CRLBs for an unwrapped model (see Section IV.A of our paper [[1]](#ourpaper)), and 2) the basic machinery to run Monte Carlo experiments with our proposed estimation approaches (see Section IV.B of our paper [[1]](#ourpaper)and [estimation_strategies_with_examples.ipynb](#estimation-strategies) for their implementation) with respect to the different parameters of interest in the clock synchronization and ranging problem. 
+In this we implement 1) the computation of the CRLBs for an unwrapped model (see Section IV.A of our paper [[1]](#ourpaper)), and 2) the basic machinery to run Monte Carlo experiments with our proposed estimation approaches (see Section IV.B of our paper [[1]](#ourpaper) and [estimation_strategies_with_examples.ipynb](#estimation-strategies) for their implementation) with respect to the different parameters of interest in the clock synchronization and ranging problem. 
 
 ### empirical_results.ipynb <a id='empirical_results'></a>
 This notebook complements Section V: Numerical results of our paper [[1]](#ourpaper). Here, we implement the experiments that yield the numerical results we report in Section V.
@@ -45,7 +45,7 @@ This notebook complements Section V: Numerical results of our paper [[1]](#ourpa
 In this notebook an ideal physical system is simulated according to the protocol described in [Fig.1](#Fig.1) and in Section II.A of [[1]](#ourpaper). 
 
 #### Real parameters for simulated nodes.ipynb
-In this notebook it is shown how the real parameters for the simulated nodes are computed. However, such real values lead to an unrealistic computation time. Therefore, we decided to run the simulation of the physical system with toy parameters instead.
+In this notebook it is shown how the real parameters for the simulated nodes are computed. However, such real values lead to an unrealistic computation time, namely three years. Therefore, we decided to run the simulation of the physical system with toy parameters instead.
 
 ## References
  <a id='ourpaper'></a>[1]: Pol del Aguila Pla, Lissy Pellaco, Satyam Dwivedi, Peter Händel and Joakim Jaldén, "Clock synchronization over networks — Identifiability of the sawtooth model", Preprint, submitted to IEEE Transactions on Automatic Control, 2019.
