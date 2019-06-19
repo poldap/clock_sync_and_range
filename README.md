@@ -30,7 +30,7 @@ In this notebook we implement our reference estimation strategies (see Section I
 3. [Cramer-Rao_and_Monte-Carlo.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/Cramer-Rao_and_Monte-Carlo.ipynb): 
 In this notebook we implement 1) the computation of the CRLBs for an unwrapped model (see Section IV-A of our paper [[6]](#ourpaper)), and 2) the basic machinery to run Monte Carlo experiments with our proposed estimation approaches (see Section IV-B of our paper [[6]](#ourpaper) and [estimation_strategies_with_examples.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/estimation_strategies_with_examples.ipynb) for their implementation) with respect to the different parameters of interest in the clock synchronization and ranging problem. 
 4. [empirical_results.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/empirical_results.ipynb): This notebook complements Section V of our paper [[6]](#ourpaper). Here, we implement the experiments that yield the numerical results we report in Section V and generate the figures shown there.
-5. [simulated nodes.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/simulated nodes.ipynb): 
+5. [simulated nodes.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/simulated_nodes.ipynb): 
 In this notebook an ideal physical system is simulated according to the protocol described in [Fig.1](#Fig.1) and in Section II-A of [[6]](#ourpaper). 
     1. [real_parameters_for_simulated_nodes.ipynb](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/blob/master/real_parameters_for_simulated_nodes.ipynb): In this notebook it is shown how the real parameters for the simulated nodes are computed. However, such real values lead to an unrealistic computation time, namely around three years. Therefore, we decided to run the simulation of the physical system with toy parameters instead.
 
@@ -40,4 +40,4 @@ In this notebook an ideal physical system is simulated according to the protocol
 [[3]](https://www.researchgate.net/profile/Satyam_Dwivedi2): Satyam Dwivedi's researchgate profile<br/>
 [[4]](https://www.kth.se/profile/ph/): Peter Händel's research profile at KTH<br/>
 [[5]](https://www.kth.se/profile/jalden/): Joakim Jaldén's research profile at KTH<br/>
-<a id='ourpaper'></a>[6]: Pol del Aguila Pla, Lissy Pellaco, Satyam Dwivedi, Peter Händel and Joakim Jaldén, "Clock synchronization over networks — Identifiability of the sawtooth model", Preprint, submitted to IEEE Transactions on Automatic Control, 2019.
+<a id='ourpaper'></a>[[6]](https://arxiv.org/): Pol del Aguila Pla, Lissy Pellaco, Satyam Dwivedi, Peter Händel and Joakim Jaldén, "Clock synchronization over networks — Identifiability of the sawtooth model", Preprint, submitted to IEEE Transactions on Automatic Control, 2019.
