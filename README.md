@@ -12,7 +12,7 @@ In order to run our code successfully and in a moderate time, you will need acce
 
 
 ## Reading the code and our explanations
-The simplest way to read through the annotated code is to open the relevant `*.ipynb` 'notebook' files through [nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/tree/master/). You can use [nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/tree/master/) from any modern browser, without any further installation requirements. Note that this option only allows you to visualize the notebooks, and it is not possible to execute the code or reproduce the results from the paper in this manner.
+The simplest way to read through the annotated code is to open the relevant `*.ipynb` 'notebook' files through [nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/tree/interactive_plots/). You can use [nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/poldap/clock_sync_and_range/tree/interactive_plots/) from any modern browser, without any further installation requirements. Note that this option only allows you to visualize the notebooks, and it is not possible to execute the code or reproduce the results from the paper in this manner.
 
 ## Executing the code
 If you would like to execute the code on your own computation environment and fully replicate our results, the software requirements are:
