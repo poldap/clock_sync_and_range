@@ -1,6 +1,6 @@
 # Clock synchronization over networks — Identifiability of the sawtooth model
 
-This GitHub repository contains the code and explanations that complement the papers "Clock synchronization over networks: Identifiability of the sawtooth model" [[6]](#ourpaper1) and "Clock Synchronization Over Networks Using Sawtooth Models" [[7]](#ourpaper2).
+This GitHub repository contains the code and explanations that complement the papers "Clock synchronization over networks: Identifiability of the sawtooth model" [[6]](#ourpaper1) and "Clock synchronization over networks using sawtooth models" [[7]](#ourpaper2).
 ### Pol del Aguila Pla [[1]](https://poldap.github.io/#/), Lissy Pellaco [[2]](https://www.kth.se/profile/pellaco), Satyam Dwivedi [[3]](https://www.researchgate.net/profile/Satyam_Dwivedi2), Peter Händel [[4]](https://www.kth.se/profile/ph/) and Joakim Jaldén [[5]](https://www.kth.se/profile/jalden/)
 
 In this repository you will find the code used to implement the different estimation strategies in our paper [[6]](#ourpaper1), i.e., the intuitive periodogram and correlation peaks (PCP) technique and the local and global grid search (LGS/GGS) procedures for the sawtooth model. Similiarly, you will also find the code used for their evaluation and the generation of the empirical results in [[6]](#ourpaper1). Additionally, you can also find the code used to simulate an ideal physical system implementing the round-trip time (RTT) protocol described in Section II-A of our paper [[6]](#ourpaper1), summarized here by [Fig.1](#Fig.1).
@@ -41,4 +41,5 @@ In this notebook an ideal physical system is simulated according to the protocol
 [[4]](https://www.kth.se/profile/ph/): Peter Händel's research profile at KTH<br/>
 [[5]](https://www.kth.se/profile/jalden/): Joakim Jaldén's research profile at KTH<br/>
 <a id='ourpaper1'></a>[[6]](https://ieeexplore.ieee.org/document/9025036): P. del Aguila Pla, L. Pellaco, S. Dwivedi, P. Händel and J. Jaldén, "Clock Synchronization Over Networks: Identifiability of the Sawtooth Model," in IEEE Open Journal of Signal Processing, vol. 1, pp. 14-27, 2020, doi: 10.1109/OJSP.2020.2978762.
+
 <a id='ourpaper2'></a>[[7]](https://ieeexplore.ieee.org/document/9054426): P. del Aguila Pla, L. Pellaco, S. Dwivedi, P. Händel and J. Jaldén, "Clock Synchronization Over Networks Using Sawtooth Models," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2020, pp. 5945-5949, doi: 10.1109/ICASSP40776.2020.9054426.
